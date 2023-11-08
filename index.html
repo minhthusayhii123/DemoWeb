@@ -4,8 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-  
+  <div class="main">
+    <div class="logo">
+      <img src="./assets/img/logo.png" alt="">
+    </div>
+    <form action="" class="form-login">
+      <div class="form-group">
+        <label for="email" class="form-label">Email Address</label>
+        <input class="form-control" type="text"  placeholder="Enter your Email Address">
+      </div>
+      <div class="form-group">
+        <label for="email" class="form-label">Phone number</label>
+        
+          <button class="btn-number">+84</button>
+          <input class="form-control" type="tel"  placeholder="Enter your phone number">
+        
+        
+      </div>
+      <div class="form-group">
+        <label for="email" class="form-label">Password</label>
+
+        <div class="input-pass">
+          
+          <input id="password" class="form-control" type="password"  placeholder="Enter your password">
+          <i id="eye" class="fa-solid fa-eye"></i>
+          <!-- <i class="fa-solid fa-eye-slash"></i> -->
+        </div>
+      </div>
+      <button class="btn">Sign in</button>
+    </form>
+    </div>
+  </div>
+  <script src="./assets/main.js"></script>
 </body>
 </html>

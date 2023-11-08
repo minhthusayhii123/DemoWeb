@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+body {
+}
+.logo{
+  width: 400px;
+  margin: auto;
+}
+.logo img {
+  width: 100%;
+}
+.form-login {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.form-label {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.form-control {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 8px 10px;
+  margin-top: 5px;
+}
+.btn-number {
+  position: absolute;
+  left: 4px;
+  top: 31px;
+  width: 40px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 15px 7px 28px;
+  border: none;
+  border-right: 1.5px solid #000;
+  background-color: #fff;  
+}
+.form-group .input-pass i {
+  position: absolute;
+  top: 37px;
+  right: 8px;
+  padding: 2px 4px;
+  display: block;
+}
+
+
+.form-login .btn {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+  background-color: darkcyan;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 14px;
+}
+input[type="tel"]::placeholder{
+  padding-left: 45px;
+}

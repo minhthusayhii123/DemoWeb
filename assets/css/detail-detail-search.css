@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.fields {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+  color: #818181;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.fields hr {
+  border: 1px solid #ccc;
+}
+.fields .fields-left {
+  width: 100%;
+}
+.name-detail {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.content-name span{
+  color: #000;
+}
+.name{
+  width: 100%;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+.content-name{
+  color: darkcyan;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.content-detail {
+  width: 600px;
+  margin: 0 auto;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.list-detail {
+  width: 600px;
+  margin: 0 auto;
+}
+.detail {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin-top: 10px;
+  color: darkcyan;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+.detail i {
+  padding: 4px;
+}

@@ -32,7 +32,7 @@ html {
   border-radius: 5px;
   padding: 8px 10px;
   margin-top: 5px;
-  
+  outline: none;
 }
 .form-search{
   display: flex;
